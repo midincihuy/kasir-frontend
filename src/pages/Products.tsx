@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { getProducts } from "../api/product"
-import { Product } from "../types/product"
+import type { Product } from "../types/product"
 import ProductCard from "../components/ProductCard"
 import { postCheckout } from "../api/checkout"
 
